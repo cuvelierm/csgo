@@ -52,9 +52,9 @@ cd $CSGO_DIR
 
 ### Create dynamic server config
 cat << SERVERCFG > $CSGO_DIR/csgo/cfg/server.cfg
-hostname "$SERVER_HOSTNAME"
-rcon_password "$RCON_PASSWORD"
-sv_password "$SERVER_PASSWORD"
+hostname $SERVER_HOSTNAME
+rcon_password $RCON_PASSWORD
+sv_password $SERVER_PASSWORD
 sv_lan 0
 sv_cheats 0
 SERVERCFG
